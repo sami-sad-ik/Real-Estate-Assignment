@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "estate_title": "Downtown Office Tower",
+    "segment_name": "Office Building",
+    "description": "A premium office space located in the heart of the business district with modern amenities.",
+    "price": 2500000,
+    "status": "sale",
+    "area": "5000 sq ft",
+    "location": "New York, NY",
+    "facilities": ["Conference Rooms", "High-Speed Internet", "Parking Garage"],
+    "image": "https://via.placeholder.com/400x300?text=Office+Building"
+  },
+  {
+    "id": 2,
+    "estate_title": "Luxury Shopping Mall Space",
+    "segment_name": "Retail Space",
+    "description": "A prime retail space inside a luxury shopping mall, perfect for high-end brands.",
+    "price": 15000,
+    "status": "rent",
+    "area": "3000 sq ft",
+    "location": "Los Angeles, CA",
+    "facilities": ["Glass Frontage", "24/7 Security", "Foot Traffic"],
+    "image": "https://via.placeholder.com/400x300?text=Retail+Space"
+  },
+  {
+    "id": 3,
+    "estate_title": "High-Capacity Warehouse",
+    "segment_name": "Warehouse",
+    "description": "A spacious warehouse with high ceilings and loading docks, ideal for storage and logistics.",
+    "price": 5000000,
+    "status": "sale",
+    "area": "20,000 sq ft",
+    "location": "Dallas, TX",
+    "facilities": ["Loading Dock", "Security System", "Reinforced Flooring"],
+    "image": "https://via.placeholder.com/400x300?text=Warehouse"
+  },
+  {
+    "id": 4,
+    "estate_title": "Industrial Manufacturing Unit",
+    "segment_name": "Industrial Facility",
+    "description": "A fully-equipped manufacturing facility with advanced machinery and production lines.",
+    "price": 10000,
+    "status": "rent",
+    "area": "15,000 sq ft",
+    "location": "Chicago, IL",
+    "facilities": [
+      "Heavy Machinery",
+      "Energy-Efficient Systems",
+      "Truck Parking"
+    ],
+    "image": "https://via.placeholder.com/400x300?text=Industrial+Facility"
+  },
+  {
+    "id": 5,
+    "estate_title": "Modern Fine Dining Restaurant",
+    "segment_name": "Restaurant",
+    "description": "A beautifully designed fine-dining restaurant with a fully-equipped kitchen and seating for 100+ guests.",
+    "price": 1200000,
+    "status": "sale",
+    "area": "4000 sq ft",
+    "location": "San Francisco, CA",
+    "facilities": ["Commercial Kitchen", "Bar Area", "Outdoor Seating"],
+    "image": "https://via.placeholder.com/400x300?text=Restaurant"
+  },
+  {
+    "id": 6,
+    "estate_title": "Premium Entertainment Venue",
+    "segment_name": "Entertainment Venue",
+    "description": "A multi-purpose entertainment venue suitable for concerts, theater shows, and private events.",
+    "price": 25000,
+    "status": "rent",
+    "area": "10,000 sq ft",
+    "location": "Las Vegas, NV",
+    "facilities": ["Stage & Lighting", "VIP Lounges", "Soundproof Walls"],
+    "image": "https://via.placeholder.com/400x300?text=Entertainment+Venue"
+  },
+  {
+    "id": 7,
+    "estate_title": "Tech Startup Co-Working Space",
+    "segment_name": "Office Building",
+    "description": "A collaborative co-working space designed for tech startups and freelancers.",
+    "price": 8000,
+    "status": "rent",
+    "area": "2500 sq ft",
+    "location": "Austin, TX",
+    "facilities": ["Private Offices", "Shared Workstations", "Coffee Bar"],
+    "image": "https://via.placeholder.com/400x300?text=Co-Working+Space"
+  },
+  {
+    "id": 8,
+    "estate_title": "Boutique Retail Shopfront",
+    "segment_name": "Retail Space",
+    "description": "A stylish boutique space in a high-end shopping district, perfect for fashion brands.",
+    "price": 900000,
+    "status": "sale",
+    "area": "1800 sq ft",
+    "location": "Miami, FL",
+    "facilities": [
+      "Large Display Windows",
+      "Premium Flooring",
+      "High Foot Traffic"
+    ],
+    "image": "https://via.placeholder.com/400x300?text=Boutique+Retail"
+  },
+  {
+    "id": 9,
+    "estate_title": "Mega Logistics Hub",
+    "segment_name": "Warehouse",
+    "description": "A strategically located mega warehouse perfect for large-scale logistics operations.",
+    "price": 20000,
+    "status": "rent",
+    "area": "50,000 sq ft",
+    "location": "Atlanta, GA",
+    "facilities": ["Truck Docks", "Cold Storage", "24/7 Security"],
+    "image": "https://via.placeholder.com/400x300?text=Logistics+Warehouse"
+  },
+  {
+    "id": 10,
+    "estate_title": "Urban Food Court",
+    "segment_name": "Restaurant",
+    "description": "A vibrant food court with multiple vendor spaces and a large seating area.",
+    "price": 3500000,
+    "status": "sale",
+    "area": "8000 sq ft",
+    "location": "Seattle, WA",
+    "facilities": [
+      "Shared Dining Area",
+      "Modern Kitchen Equipment",
+      "High Foot Traffic"
+    ],
+    "image": "https://via.placeholder.com/400x300?text=Food+Court"
+  }
+]
