@@ -9,7 +9,7 @@
     "area": "5000 sq ft",
     "location": "New York, NY",
     "facilities": ["Conference Rooms", "High-Speed Internet", "Parking Garage"],
-    "image": "https://via.placeholder.com/400x300?text=Office+Building"
+    "image": "/images/1.jpg"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "area": "3000 sq ft",
     "location": "Los Angeles, CA",
     "facilities": ["Glass Frontage", "24/7 Security", "Foot Traffic"],
-    "image": "https://via.placeholder.com/400x300?text=Retail+Space"
+    "image": "/images/2.jpg"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "area": "20,000 sq ft",
     "location": "Dallas, TX",
     "facilities": ["Loading Dock", "Security System", "Reinforced Flooring"],
-    "image": "https://via.placeholder.com/400x300?text=Warehouse"
+    "image": "/images/3.jpg"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "Energy-Efficient Systems",
       "Truck Parking"
     ],
-    "image": "https://via.placeholder.com/400x300?text=Industrial+Facility"
+    "image": "/images/4.jpg"
   },
   {
     "id": 5,
@@ -61,7 +61,7 @@
     "area": "4000 sq ft",
     "location": "San Francisco, CA",
     "facilities": ["Commercial Kitchen", "Bar Area", "Outdoor Seating"],
-    "image": "https://via.placeholder.com/400x300?text=Restaurant"
+    "image": "/images/5.jpg"
   },
   {
     "id": 6,
@@ -73,7 +73,7 @@
     "area": "10,000 sq ft",
     "location": "Las Vegas, NV",
     "facilities": ["Stage & Lighting", "VIP Lounges", "Soundproof Walls"],
-    "image": "https://via.placeholder.com/400x300?text=Entertainment+Venue"
+    "image": "/images/6.jpg"
   },
   {
     "id": 7,
@@ -85,7 +85,7 @@
     "area": "2500 sq ft",
     "location": "Austin, TX",
     "facilities": ["Private Offices", "Shared Workstations", "Coffee Bar"],
-    "image": "https://via.placeholder.com/400x300?text=Co-Working+Space"
+    "image": "/images/7.jpg"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "Premium Flooring",
       "High Foot Traffic"
     ],
-    "image": "https://via.placeholder.com/400x300?text=Boutique+Retail"
+    "image": "/images/8.jpg"
   },
   {
     "id": 9,
@@ -113,7 +113,7 @@
     "area": "50,000 sq ft",
     "location": "Atlanta, GA",
     "facilities": ["Truck Docks", "Cold Storage", "24/7 Security"],
-    "image": "https://via.placeholder.com/400x300?text=Logistics+Warehouse"
+    "image": "/images/9.jpg"
   },
   {
     "id": 10,
@@ -129,6 +129,6 @@
       "Modern Kitchen Equipment",
       "High Foot Traffic"
     ],
-    "image": "https://via.placeholder.com/400x300?text=Food+Court"
+    "image": "/images/food.jpg"
   }
 ]
