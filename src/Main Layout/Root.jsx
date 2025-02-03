@@ -4,8 +4,10 @@ import Footer from "./Footer";
 
 const Root = () => {
   return (
-    <div className="font-lato">
-      <Navbar />
+    <div className="font-Lato ">
+      <div className="h-[65px]">
+        <Navbar />
+      </div>
       <Outlet />
       <Footer />
     </div>
