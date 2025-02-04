@@ -13,7 +13,7 @@ const Home = () => {
           Thousands of luxury home enthusiasts just like you visit our website.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-3 my-3">
+      <div className=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 justify-items-center md: gap-5 my-3">
         {properties.map((property) => (
           <Property key={property.id} property={property} />
         ))}

@@ -48,7 +48,7 @@ const Banner = () => {
           <SwiperSlide key={prop.id} className="flex justify-center">
             <div className="relative lg:w-[600px] lg:h-[400px] md:w-[450px] md:h-[300px]  rounded-lg overflow-hidden shadow-lg">
               <img
-                className=" w-full h-full object-cover"
+                className=" w-full h-[400px] object-cover"
                 src={prop.image}
                 alt={prop.estate_title}
               />
