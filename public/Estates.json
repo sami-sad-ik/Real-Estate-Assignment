@@ -9,7 +9,7 @@
     "area": 5000,
     "location": "New York, NY",
     "facilities": ["Conference Rooms", "High-Speed Internet", "Parking Garage"],
-    "image": "/images/1.jpg"
+    "image": "https://i.ibb.co.com/f7GbGp5/9.jpg"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "area": 3000,
     "location": "Los Angeles, CA",
     "facilities": ["Glass Frontage", "24/7 Security", "Foot Traffic"],
-    "image": "/images/2.jpg"
+    "image": "https://i.ibb.co.com/wFZMkzf1/1.jpg"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "area": 20000,
     "location": "Dallas, TX",
     "facilities": ["Loading Dock", "Security System", "Reinforced Flooring"],
-    "image": "/images/3.jpg"
+    "image": "https://i.ibb.co.com/NgLq2QNs/2.jpg"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "Energy-Efficient Systems",
       "Truck Parking"
     ],
-    "image": "/images/4.jpg"
+    "image": "https://i.ibb.co.com/h1m1TfPr/3.jpg"
   },
   {
     "id": 5,
@@ -61,7 +61,7 @@
     "area": 4000,
     "location": "San Francisco, CA",
     "facilities": ["Commercial Kitchen", "Bar Area", "Outdoor Seating"],
-    "image": "/images/5.jpg"
+    "image": "https://i.ibb.co.com/MxVnhShB/4.jpg"
   },
   {
     "id": 6,
@@ -73,7 +73,7 @@
     "area": 10000,
     "location": "Las Vegas, NV",
     "facilities": ["Stage & Lighting", "VIP Lounges", "Soundproof Walls"],
-    "image": "/images/6.jpg"
+    "image": "https://i.ibb.co.com/39cJ1GF6/5.jpg"
   },
   {
     "id": 7,
@@ -85,7 +85,7 @@
     "area": 2500,
     "location": "Austin, TX",
     "facilities": ["Private Offices", "Shared Workstations", "Coffee Bar"],
-    "image": "/images/7.jpg"
+    "image": "https://i.ibb.co.com/RTnVTHKq/6.jpg"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "Premium Flooring",
       "High Foot Traffic"
     ],
-    "image": "/images/8.jpg"
+    "image": "https://i.ibb.co.com/mrNg6vxC/7.jpg"
   },
   {
     "id": 9,
@@ -113,7 +113,7 @@
     "area": 50000,
     "location": "Atlanta, GA",
     "facilities": ["Truck Docks", "Cold Storage", "24/7 Security"],
-    "image": "/images/9.jpg"
+    "image": "https://i.ibb.co.com/NdZjWZhc/8.jpg"
   },
   {
     "id": 10,
@@ -129,6 +129,6 @@
       "Modern Kitchen Equipment",
       "High Foot Traffic"
     ],
-    "image": "/images/food.jpg"
+    "image": "https://i.ibb.co.com/43yrRfR/food.jpg"
   }
 ]

@@ -31,7 +31,7 @@ const Banner = () => {
           320: { slidesPerView: 1 },
           640: { slidesPerView: 1.1 },
           768: { slidesPerView: 1.2 },
-          1024: { slidesPerView: 1.5 },
+          1024: { slidesPerView: 1.7 },
         }}
         pagination={{ clickable: true }}
         coverflowEffect={{

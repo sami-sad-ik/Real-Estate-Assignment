@@ -5,6 +5,7 @@ import ErrorPage from "../Main Layout/ErrorPage";
 import PropertyDetails from "../Components/PropertyDetails";
 import Login from "../Components/Login";
 import Register from "../Components/Register";
+import PrivateRoute from "../Private Route/PrivateRoute";
 
 const routes = createBrowserRouter([
   {
@@ -19,7 +20,11 @@ const routes = createBrowserRouter([
       },
       {
         path: "/property/:id",
-        element: <PropertyDetails />,
+        element: (
+          <PrivateRoute>
+            <PropertyDetails />
+          </PrivateRoute>
+        ),
         loader: async ({ params }) => {
           const res = await fetch("/Estates.json");
           const properties = await res.json();

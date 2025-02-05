@@ -1,10 +1,16 @@
 import { useContext } from "react";
 import { useForm } from "react-hook-form";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
+import { FcGoogle } from "react-icons/fc";
+import { FaGithub } from "react-icons/fa";
 
 const Login = () => {
-  const { signInUser } = useContext(AuthContext);
+  const { signInUser, googleLogin, githubLogin } = useContext(AuthContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+  console.log(location);
+
   const {
     register,
     handleSubmit,
@@ -16,6 +22,25 @@ const Login = () => {
     signInUser(email, password)
       .then((result) => console.log(result.user))
       .catch((err) => err.message);
+  };
+  const handleGoogle = () => {
+    googleLogin()
+      .then((result) => {
+        console.log(result.user);
+        navigate(location?.state ? location.state : "/");
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
+  };
+  const handleGithub = () => {
+    githubLogin()
+      .then((result) => {
+        console.log(result.user);
+      })
+      .catch((error) => {
+        console.log(error.message);
+      });
   };
 
   return (
@@ -74,6 +99,16 @@ const Login = () => {
               Register
             </Link>
           </p>
+          <div className="w-3/4 mx-auto flex flex-col items-center gap-3 my-3">
+            <button onClick={handleGoogle} className="btn rounded-4xl">
+              <FcGoogle />
+              Sign in with Google
+            </button>
+            <button onClick={handleGithub} className="btn rounded-4xl">
+              <FaGithub />
+              Sign in with Github
+            </button>
+          </div>
         </div>
       </div>
     </div>
