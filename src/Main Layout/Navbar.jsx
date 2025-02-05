@@ -49,8 +49,10 @@ const Navbar = () => {
         <ul className="menu menu-horizontal gap-10 px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <Link to="/login" className="btn">
-          Button
+        <Link
+          to="/login"
+          className="bg-black hover:scale-95 duration-200 rounded-full tracking-widest text-white px-10 py-2">
+          Login
         </Link>
       </div>
     </div>
