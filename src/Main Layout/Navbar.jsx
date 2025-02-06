@@ -1,13 +1,17 @@
 import { useContext } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 
 const Navbar = () => {
   const { user, signOutUser } = useContext(AuthContext);
+  const navigate = useNavigate();
+
   const handleSignOut = () => {
     signOutUser()
-      .then((res) => console.log(res))
-      .then((err) => console.log(err));
+      .then(() => {
+        navigate("/");
+      })
+      .Catch((err) => console.log(err));
   };
   const navLinks = (
     <>
@@ -20,6 +24,11 @@ const Navbar = () => {
       <li>
         <NavLink>Blog</NavLink>
       </li>
+      {user && (
+        <li>
+          <NavLink to="/update">Update Profile</NavLink>
+        </li>
+      )}
     </>
   );
   return (
@@ -66,8 +75,12 @@ const Navbar = () => {
               className="btn btn-ghost btn-circle avatar">
               <div className="w-10 rounded-full">
                 <img
-                  alt="Tailwind CSS Navbar component"
-                  src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  alt="id"
+                  src={
+                    user?.photoURL ||
+                    "https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp"
+                  }
+                  loading="lazy"
                 />
               </div>
             </div>

@@ -51,6 +51,7 @@ const Banner = () => {
                 className=" w-full h-[400px] object-cover"
                 src={prop.image}
                 alt={prop.estate_title}
+                loading="lazy"
               />
               <div className="absolute bottom-1/4 left-1/5 bg-[#0000002d] text-white px-4 py-2 rounded-lg">
                 <h2 className="text-3xl font-bold">{prop.estate_title}</h2>

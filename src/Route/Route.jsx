@@ -6,6 +6,7 @@ import PropertyDetails from "../Components/PropertyDetails";
 import Login from "../Components/Login";
 import Register from "../Components/Register";
 import PrivateRoute from "../Private Route/PrivateRoute";
+import UpdateProfile from "../Components/UpdateProfile";
 
 const routes = createBrowserRouter([
   {
@@ -41,6 +42,14 @@ const routes = createBrowserRouter([
       {
         path: "/register",
         element: <Register />,
+      },
+      {
+        path: "/update",
+        element: (
+          <PrivateRoute>
+            <UpdateProfile />,
+          </PrivateRoute>
+        ),
       },
     ],
   },

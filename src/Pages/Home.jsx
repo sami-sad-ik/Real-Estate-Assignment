@@ -1,11 +1,15 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../Components/Banner";
 import Property from "../Components/Property";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   const properties = useLoaderData();
   return (
     <div className="lg:max-w-[80%] mx-auto">
+      <Helmet>
+        <title>Home page</title>
+      </Helmet>
       <Banner />
       <div className="text-center space-y-4 my-3">
         <h2 className="text-4xl font-bold">Today’s Luxury Listings</h2>

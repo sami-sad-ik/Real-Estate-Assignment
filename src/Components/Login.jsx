@@ -4,12 +4,13 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
+import { Helmet } from "react-helmet";
 
 const Login = () => {
   const { signInUser, googleLogin, githubLogin } = useContext(AuthContext);
   const location = useLocation();
   const navigate = useNavigate();
-  console.log(location);
+  const from = location?.state ? location.state : "/";
 
   const {
     register,
@@ -17,17 +18,20 @@ const Login = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
-    console.log(data);
+    // console.log(data);
     const { email, password } = data;
     signInUser(email, password)
-      .then((result) => console.log(result.user))
+      .then((result) => {
+        console.log(result.user);
+        navigate(from);
+      })
       .catch((err) => err.message);
   };
   const handleGoogle = () => {
     googleLogin()
       .then((result) => {
         console.log(result.user);
-        navigate(location?.state ? location.state : "/");
+        navigate(from);
       })
       .catch((error) => {
         console.log(error.message);
@@ -37,6 +41,7 @@ const Login = () => {
     githubLogin()
       .then((result) => {
         console.log(result.user);
+        navigate(from);
       })
       .catch((error) => {
         console.log(error.message);
@@ -45,8 +50,13 @@ const Login = () => {
 
   return (
     <div className="hero bg-base-200 min-h-screen">
+       <Helmet>
+        <title>Login </title>
+      </Helmet>
       <div className="hero-content flex-col lg:flex-row-reverse">
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">
+          <h1 className="text-2xl text-center py-3 font-semibold">Login Now</h1>
+
           <form onSubmit={handleSubmit(onSubmit)} className="card-body">
             <div className="form-control">
               <label className="label">

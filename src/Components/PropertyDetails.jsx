@@ -1,3 +1,4 @@
+import { Helmet } from "react-helmet";
 import { SlLocationPin } from "react-icons/sl";
 import { useLoaderData } from "react-router-dom";
 
@@ -15,6 +16,9 @@ const PropertyDetails = () => {
   } = property;
   return (
     <div className="w-4/5 mx-auto my-10 space-y-5">
+      <Helmet>
+        <title>Property details</title>
+      </Helmet>
       <div className="flex lg:flex-row flex-col justify-between items-start gap-2 text-3xl ">
         <h2 className="font-bold ">{estate_title}</h2>
         <h2 className="text-green-400">
@@ -42,7 +46,12 @@ const PropertyDetails = () => {
         </div>
       </div>
       <figure className="w-full  lg:h-[600px]  rounded-md overflow-hidden">
-        <img className="object-cover" src={image} alt={estate_title} />
+        <img
+          className="object-cover"
+          src={image}
+          alt={estate_title}
+          loading="lazy"
+        />
       </figure>
       <div className="flex justify-between items-start">
         <div
@@ -53,7 +62,7 @@ const PropertyDetails = () => {
         </div>
         <p className="font-semibold">
           <span className="text-lg block">Area</span>{" "}
-          <span className="font-bold"> {area} Sq ft.</span> Sq ft.
+          <span className="font-bold"> {area}</span> Sq ft.
         </p>
       </div>
       <div>

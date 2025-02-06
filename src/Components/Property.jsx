@@ -20,6 +20,7 @@ const Property = ({ property }) => {
           className="hover:scale-110 duration-700  w-full h-full object-cover"
           src={image}
           alt={estate_title}
+          loading="lazy"
         />
       </figure>
       <div className="w-11/12 mx-auto space-y-3 my-2 p-3 flex flex-col h-48">
