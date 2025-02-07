@@ -9,7 +9,7 @@
     "area": 5000,
     "location": "New York, NY",
     "facilities": ["Conference Rooms", "High-Speed Internet", "Parking Garage"],
-    "image": "https://i.ibb.co.com/f7GbGp5/9.webP"
+    "image": "https://i.ibb.co.com/LzNyVGZ4/5.webP"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "area": 3000,
     "location": "Los Angeles, CA",
     "facilities": ["Glass Frontage", "24/7 Security", "Foot Traffic"],
-    "image": "https://i.ibb.co.com/wFZMkzf1/1.webP"
+    "image": "https://i.ibb.co.com/Vpq3zgJ1/4.webP"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
     "area": 20000,
     "location": "Dallas, TX",
     "facilities": ["Loading Dock", "Security System", "Reinforced Flooring"],
-    "image": "https://i.ibb.co.com/NgLq2QNs/2.webP"
+    "image": "https://i.ibb.co.com/8nDTVB7H/3.webP"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "Energy-Efficient Systems",
       "Truck Parking"
     ],
-    "image": "https://i.ibb.co.com/h1m1TfPr/3.webP"
+    "image": "https://i.ibb.co.com/Gf8j6qhB/2.webP"
   },
   {
     "id": 5,
@@ -61,7 +61,7 @@
     "area": 4000,
     "location": "San Francisco, CA",
     "facilities": ["Commercial Kitchen", "Bar Area", "Outdoor Seating"],
-    "image": "https://i.ibb.co.com/MxVnhShB/4.webP"
+    "image": "https://i.ibb.co.com/nsXYvVbY/1.webP"
   },
   {
     "id": 6,
@@ -73,7 +73,7 @@
     "area": 10000,
     "location": "Las Vegas, NV",
     "facilities": ["Stage & Lighting", "VIP Lounges", "Soundproof Walls"],
-    "image": "https://i.ibb.co.com/39cJ1GF6/5.webP"
+    "image": "https://i.ibb.co.com/BHJ8nnGs/9.webP"
   },
   {
     "id": 7,
@@ -85,7 +85,7 @@
     "area": 2500,
     "location": "Austin, TX",
     "facilities": ["Private Offices", "Shared Workstations", "Coffee Bar"],
-    "image": "https://i.ibb.co.com/RTnVTHKq/6.webP"
+    "image": "https://i.ibb.co.com/BHV6k3FT/food.webP"
   },
   {
     "id": 8,
@@ -101,7 +101,7 @@
       "Premium Flooring",
       "High Foot Traffic"
     ],
-    "image": "https://i.ibb.co.com/mrNg6vxC/7.webP"
+    "image": "https://i.ibb.co.com/jZVTPTQm/6.webP"
   },
   {
     "id": 9,
@@ -113,7 +113,7 @@
     "area": 50000,
     "location": "Atlanta, GA",
     "facilities": ["Truck Docks", "Cold Storage", "24/7 Security"],
-    "image": "https://i.ibb.co.com/NdZjWZhc/8.webP"
+    "image": "https://i.ibb.co.com/9kYXRqZD/8.webP"
   },
   {
     "id": 10,
@@ -129,6 +129,6 @@
       "Modern Kitchen Equipment",
       "High Foot Traffic"
     ],
-    "image": "https://i.ibb.co.com/43yrRfR/food.webP"
+    "image": "https://i.ibb.co.com/hJDbDWn0/7.webP"
   }
 ]
